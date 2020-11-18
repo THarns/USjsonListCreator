@@ -74,7 +74,7 @@ axios.get(page).then((response) => {
     //adds population data to city/state array
     for(let i = 0; i < cityStateArr.length; i++) {
         cityStateArr[i].population = arr[i];
-        cityStateArr[i].district = i;
+        cityStateArr[i].district = '';
 
         //fixes county's that didn't have a proper state identification on the inital scrape
         if(cityStateArr[i].state === undefined) {
