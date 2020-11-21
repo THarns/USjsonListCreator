@@ -9,7 +9,7 @@ Clone this repo to your desktop and run npm install to install all the dependenc
 After cloning the repo, go to the root direcotry and run `npm install` to clone all dependencies.
 
 
-Open your terminal and type the following to scrape and then generate a current JSON list from the data.
+In your terminal in the root directory, type the following to scrape and then generate a current JSON list from the data.
 
 ```javascript
 node json_list_creator.js
